@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['boulder', 'crater']
+
+roboflow:
+  workspace: ohrclabel
+  project: sougata_label_71412
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ohrclabel/sougata_label_71412/dataset/3
